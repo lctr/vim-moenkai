@@ -1,15 +1,15 @@
-one-monokai-vim
+vim-moenkai
 ===========
 
-* The colors are from [azemoth/vscode-one-monokai](https://github.com/azemoh/vscode-one-monokai).
-* The original vim colorscheme is from [crusoexia/vim-monokai](https://github.com/crusoexia/vim-monokai)
+* Theme forked from [fratajczak/one-monokai-vim](https://github.com/fratajczak/one-monokai-vim)
+* Colors adopted from [tgreen7/vscode-one-monokai](https://github.com/tgreen7/vscode-one-monokai)
 
 Install
 -------
 
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
-    Plug 'fratajczak/one-monokai-vim'
+    Plug 'lctr/vim-moenkai/'
 
 ### Manually
 
@@ -17,7 +17,7 @@ Install
 mkdir -p ~/.vim/colors
 ```
     
-Download the `colors/one-monokai.vim` file from the repo to `~/.vim/colors`
+Download the `colors/moenkai.vim` file from the repo to `~/.vim/colors`
 
 Usage
 -----
@@ -26,7 +26,7 @@ Add the command below to your `~/.vimrc`:
 
 ```VimL
 syntax on
-colorscheme one-monokai
+colorscheme moenkai
 ```
 
 Terminal support
@@ -53,10 +53,10 @@ By default the gui enables italic but not the terminal. They both can be configu
     
 If you are using a font that supports italic, paste the command below in your `.vimrc` to turn on terminal italic:
 
-    let g:monokai_term_italic = 1
-    let g:monokai_gui_italic = 1
+    let g:moenkai_term_italic = 1
+    let g:moenkai_gui_italic = 1
 
 Screenshots
 -----------
 
-![c](screenshots/c.png)
+![Screenshot](moenkai.png)
